@@ -1,0 +1,33 @@
+Recursion
+1) Recursion is act of calling a function inside another function until the base case is reach and the function finishes.
+2) The base case is the case that causes the recursive function to stop because it would otherwise it would continue on forever. It in many cause it is the smalls increment of function object can break down into.
+
+Graphs
+1) A graph is data structure made up of node connections or loop they are both directed or un-directed.
+2) Graphs are often used to model relationships between things. Trees are directed, acyclic graphs.
+All trees are graphs, but not all graphs are trees. Trees have hierarchy, graphs do not
+3)Graphs could be used for network analyze for social media.
+
+Performance of Different Data Structures
+
+Data Structure      Index   Search  Add-R   Add-L   Pop-L   Pop-R
+Python List (Array) O(1)    O(n)    O(1)    O(n)    O(n)    O(1) 
+Linked List         O(n)    O(n)    O(n)    O(1)    O(1)    O(n)            
+Doubly-Linked List  O(n)    O(n)    O(1)    O(1)    O(1)    O(1)                     
+Queue (as Array)     X       X      O(1)     X      O(n)     X
+Queue (as LL or DLL) X       X      O(1)     X      O(1)     X
+Stack (as Array, LL, or DLL) X      O(1)     X       X      O(1)
+Deque (as DLL)       X       X      O(1)    O(1)    O(1)    O(1)
+
+Fill in Runtime and Memory:
+
+Data Structure          Get     Add     Delete  Iterate Memory
+Dictionary (Hash Map)   O(1)    O(1)    O(1)    O(n)    medium
+Set (Hash Map)          O(1)    O(1)    O(1)    O(n)    medium
+Binary Search Tree    O(log n) O(log n) O(log n) O(log n)small
+Tree                    O(n)    O(1)    O(1)    O(n)    small
+
+Sorting
+1)Bubble Sort compare the first two number in a list the larger number is switched to the left until it reachs the end of the list this process is repeated over and over again until the list is sorted smallest to largest.
+2)Merge Sort takes a list and break it into two list then break each of those list in two again and so until it reaches the base case of one item in a list which is sorted. It the return the sorted list and merges it back into the orginal list working it way back up the chain of divided list until the full list which is now sorted. 
+3)Quick Sort works on a pivot point and puts all lower items one side of the list and larger item on the other. However this can cause problem if a good pivot point is not picked because even if all the items are higher or lower that does not mean the list is sorted. The goal is to aim for an item in the middle.
